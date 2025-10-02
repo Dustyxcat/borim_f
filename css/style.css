@@ -675,12 +675,12 @@ header.active_h{
     }
 
     .con_3_mob img{
-        width: 100px;
+        width: 110px;
         position: absolute;
-        top: -50px;
+        top: -55px;
         left: 50%;
         transform: translateX(-50%);
-        box-shadow: 3px 6px 20px 10px rgba(30, 30, 30, 0.123);
+        box-shadow: 0px 0px 10px rgba(30, 30, 30, 0.1);
     }
 
     .con_title_wrap_3_mob{
@@ -866,6 +866,10 @@ header.active_h{
         gap: 10px;
     }
 
+    .con_5{
+        overflow: hidden;
+    }
+
     .con_5 img{
         border-radius: 10px;
     }
@@ -883,16 +887,19 @@ header.active_h{
         left: 20px;
     }
 
-    .title_wrap_5 h5{
+    .title_wrap_5 h5{   
         color: #444444bd;
         font-size: 14px;
         margin-bottom: 20px;
     }
 
     .title_wrap_5 h3{
+        position: relative;
+        right: 7px;
+        width: 100%;
         display: flex;
         font-size: 32px;
-        margin-bottom: 10px;
+        
     }
 
     .btn_5{
