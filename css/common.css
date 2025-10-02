@@ -1,3 +1,7 @@
+.wrap{
+    overflow: hidden;
+}
+
 section:not(.sec_1, .sec_4, .sec_7){
     padding: 200px 200px 200px 200px;
 }
