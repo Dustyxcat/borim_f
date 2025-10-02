@@ -111,7 +111,7 @@ header.active_h{
 
 .menu_mob{
     color: #444444cb;
-    font-size: 20px;
+    font-size: 25px;
     transition: 0.4s;
     display: none;
 }
@@ -207,12 +207,8 @@ header.active_h{
         cursor: pointer;
     }
 
-    .cart a{
-        font-size: 17px;
-    }
-
     .cart{
-        margin-top: 2px;
+        display: none;
     }
 
     .dot_h{
@@ -659,7 +655,7 @@ header.active_h{
         display: none;
     }
     .con_wrap_3_mob{
-        padding-top: 70px;
+        padding-top: 80px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         row-gap: 70px;
