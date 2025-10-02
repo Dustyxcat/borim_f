@@ -6,18 +6,51 @@ $(document).ready(function(){
 
       if(pageY > 200){
 
-          $("header").css({
+            $("header").addClass('active_h');
+
+            $(".bottom_menu").css({
               position: 'fixed',
               zIndex: 20,
-              backgroundColor: '#fdfdfdc9',
-              height: 110,
-              borderBottomLeftRadius: 10
-          });
+              top: 0
+            });
+
+            $(".search_tap").css({
+              backgroundColor: '#fdfdfdb0'
+            })
+          
+
+           $(".top_menu").css({
+              display: 'none'
+           })
+
+           $(".logo_h").css({
+              display: 'none'
+           })
+
+           $(".side_menu").css({
+              display: 'none'
+           })
 
       }else if(pageY < 200){
 
-          $("header").css({
-              position: 'relative'
+        $("header").removeClass('active_h');
+
+         $(".bottom_menu").css({
+              position: 'absolute',
+              top: 50,
+              
+          });
+
+          $(".top_menu").css({
+            display: 'block'
+          });
+
+          $(".logo_h").css({
+            display: 'block'
+          });
+
+          $(".side_menu").css({
+            display: 'flex'
           });
 
       };
